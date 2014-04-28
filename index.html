@@ -89,25 +89,46 @@ WebFontConfig = { fontdeck: { id: '29651' } };
 				<div class="row">
 					<div class="header-left span4">
 						<div class="tb-welcome">Ihre <span>No. 1</span> für Geschenke.</div>
+						<a class="visible-phone show-main-nav" href="#"><span class="menu-toggle-button"></span>MENÜ</a>
 					</div>
 					<div class="span4 logo-center clearfix" id="logo">
-						<a class="visible-phone show-main-nav" href="#"><span class="menu-toggle-button"></span>MENÜ</a>
-						<a class="visible-phone mobile-cart-link" href="#">
-							<div class="cart-bag"></div>
-							<span class="qty">12</span>
-							<span class="price">157,40€</span>
-						</a>
 						<a href="#">
 							<img alt="SchenkDichGlücklich" src="images/logo.png">
 							<!--<img alt="SchenkDichGlücklich" src="images/logo.png" class="standard">
 							<img alt="Neighborhood" src="//neighborhood.swiftideas.net/wp-content/uploads/2013/06/neighborhood_logo@2x.png" class="retina">-->
 						</a>
 					</div>
-					<div class="header-right span4">
-						<div class="pull-right">
-							<img src="images/certificate-1.png" alt=""/>
-							<img src="images/certificate-2.png" alt=""/>
-						</div>
+					<div class="header-right span4 align-right">
+						<img src="images/certificate-1.png" alt=""/>
+						<img src="images/certificate-2.png" alt=""/>
+						<nav class="visible-phone mini-cart-nav">
+							<ul class="menu">
+								<li class="parent shopping-bag-item clearfix">
+									<a class="mobile-cart-link" href="#">
+										<div class="cart-bag"></div>
+										<span class="qty">12</span>
+										<span class="price">157,40€</span>
+									</a>
+									<ul class="sub-menu">
+										<li>
+											<div class="shopping-bag">
+												<div class="bag-header">2 Artikel</div>
+												<div class="bag-contents">
+													<div class="bag-product clearfix">
+														<figure><a class="bag-product-img" href="#"><img width="104" height="104" src="images/sample/product-image-thumb.jpg" class="attachment-shop_thumbnail wp-post-image" alt="Product" /></a></figure>
+														<div class="bag-product-details"><div class="bag-product-title"><a href="#">Salatgeweih</a></div><div class="bag-product-price">Unit Price: <span class="amount">54,70€</span></div><div class="bag-product-quantity">Quantity: 2</div></div><a href="#" class="remove" title="Remove this item">&times;</a>
+													</div>
+												</div>
+												<div class="bag-buttons">
+													<a class="btn sf-button tomato" href="#"><span>View shopping bag</span></a>
+													<a class="btn sf-button darkseagreen" href="#"><span>Proceed to checkout</span></a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 				<!-- CLOSE .row --> 
@@ -225,6 +246,23 @@ WebFontConfig = { fontdeck: { id: '29651' } };
 							<a title="View your shopping cart" href="#" class="cart-contents">
 								<i class="sf-cart"></i><span class="amount"><strong>Warenkorb</strong> 2 Artikel - 54,70€</span>
 							</a>
+							<ul class="sub-menu">
+								<li>
+									<div class="shopping-bag">
+										<div class="bag-header">2 Artikel</div>
+										<div class="bag-contents">
+											<div class="bag-product clearfix">
+												<figure><a class="bag-product-img" href="#"><img width="104" height="104" src="images/sample/product-image-thumb.jpg" class="attachment-shop_thumbnail wp-post-image" alt="Product" /></a></figure>
+												<div class="bag-product-details"><div class="bag-product-title"><a href="#">Salatgeweih</a></div><div class="bag-product-price">Unit Price: <span class="amount">54,70€</span></div><div class="bag-product-quantity">Quantity: 2</div></div><a href="#" class="remove" title="Remove this item">&times;</a>
+											</div>
+										</div>
+										<div class="bag-buttons">
+											<a class="btn sf-button tomato" href="#"><span>View shopping bag</span></a>
+											<a class="btn sf-button darkseagreen" href="#"><span>Proceed to checkout</span></a>
+										</div>
+									</div>
+								</li>
+							</ul>
 						</li>
 					</ul>
 				</nav>
