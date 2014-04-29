@@ -1506,19 +1506,19 @@ padding: 0 76px 0 5px;
 }
 
 div.selector:not(#foo) > input + label {
-background: url(../images/gr_empcrclbg.png) right 0 no-repeat;
+/*background: url(../images/gr_empcrclbg.png) right 0 no-repeat;
 padding: 0 76px 0 5px;
 min-height:57px;
-padding-top: 15px;
+padding-top: 15px;*/
 }
  div.selector:not(#foo) > input[type=radio] + label {
-background-position: right 0px;
- background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; 
+ /*background-position: right 0px;
+background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; */
 }
 
 /* Checked styles */
  div.selector:not(#foo) > input[type=radio]:checked + label {
-	 background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; 
+	/* background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; */
 
 }
  div.selector:not(#foo) > input[type=checkbox]:checked + label,
@@ -1528,11 +1528,11 @@ background-position: right 0px;
 }
  div.selector:not(#foo) > input[type=checkbox]:hover:checked + label,  div.selector:not(#foo) > input[type=checkbox]:focus:checked + label,  div.selector:not(#foo) > input[type=checkbox]:checked + label:hover,  div.selector:not(#foo) > input[type=checkbox]:focus:checked + label,
  div.selector:not(#foo) > span > input[type=checkbox]:hover:checked + label,  div.selector:not(#foo) > span > input[type=checkbox]:focus:checked + label,  div.selector:not(#foo) > span > input[type=checkbox]:checked + label:hover,  div.selector:not(#foo) > span > input[type=checkbox]:focus:checked + label {
-	 background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; 
+	 /*background:url(../images/gr_tckcrcbg.png) right 0 no-repeat;*/ 
 
 }
  div.selector:not(#foo) > input[type=radio]:hover:checked + label,  div.selector:not(#foo) > input[type=radio]:focus:checked + label,  div.selector:not(#foo) > input[type=radio]:checked + label:hover,  div.selector:not(#foo) > input[type=radio]:focus:checked + label {
-	 background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; 
+	 /*background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; */
 
 }
 
@@ -1540,20 +1540,20 @@ background-position: right 0px;
 /* Active styles */
  div.selector:not(#foo) > input[type=checkbox]:active + label,  div.selector:not(#foo) > input[type=checkbox] + label:hover:active,
  div.selector:not(#foo) > span > input[type=checkbox]:active + label,  div.selector:not(#foo) > span > input[type=checkbox] + label:hover:active {
-	 background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; 
+	/* background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; */
 
 }
  div.selector:not(#foo) > input[type=radio]:active + label,  div.selector:not(#foo) > input[type=radio] + label:hover:active {
-	 background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; 
+	 /*background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; */
 
 }
  div.selector:not(#foo) > input[type=checkbox]:active:checked + label,  div.selector:not(#foo) > input[type=checkbox]:checked + label:hover:active,
  div.selector:not(#foo) > span > input[type=checkbox]:active:checked + label,  div.selector:not(#foo) > span > input[type=checkbox]:checked + label:hover:active {
-	 background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; 
+	 /*background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; */
 
 }
  div.selector:not(#foo) > input[type=radio]:active:checked + label,  div.selector:not(#foo) > input[type=radio]:checked + label:hover:active {
-	 background:url(../images/gr_tckcrcbg.png) right 0 no-repeat; 
+	/* background:url(../images/gr_tckcrcbg.png) right 0 no-repeat;*/ 
 }
 
 
@@ -3424,7 +3424,7 @@ width: 50%;
 width: 90%;
 }
 .regbtn input[type=button].orng {
-width: 99%;
+/*width: 99%;*/
 }
 .srch_list > li {
 width: 93%;
@@ -4303,7 +4303,7 @@ font-size: .5em;
 	}
 
 .regbtn input[type=button].orng {
-width: 85%;
+/*width: 85%;*/
 font-size:18px;
 line-height: 46px;
 
@@ -5190,7 +5190,7 @@ width: 76%;
 	
 .regfrm a{
 	font-size: .4em;
-line-height: 1em;
+line-height: 1em;white-space: normal;
 	}
 	
 .register p {
